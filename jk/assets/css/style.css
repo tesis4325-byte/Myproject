@@ -1,0 +1,47 @@
+:root{
+	--color-primary:#1273de; /* Azure Blue */
+	--color-bg:#f3f9ff; /* Lily White variant */
+	--color-text:#212529;
+	--color-muted:#6c757d;
+}
+
+html,body{scroll-behavior:smooth}
+body{
+	background-color:var(--color-bg);
+	color:var(--color-text);
+	font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.navbar .navbar-brand{letter-spacing:.2px}
+.navbar .nav-link{font-weight:500}
+
+/* Hero */
+.hero{
+	background:linear-gradient(135deg, rgba(18,115,222,.08), rgba(18,115,222,.02));
+	padding:6rem 0 4rem;
+}
+.hero-title{font-weight:800;letter-spacing:.3px}
+.hero-subtitle{color:var(--color-muted)}
+.hero-cta .btn-primary{background-color:var(--color-primary);border-color:var(--color-primary)}
+
+/* Cards */
+.project-card{transition:transform .25s ease, box-shadow .25s ease}
+.project-card:hover{transform:translateY(-4px);box-shadow:0 .75rem 2rem rgba(18,115,222,.15)}
+.object-fit-cover{object-fit:cover}
+
+/* Reveal on scroll */
+.reveal{opacity:0;transform:translateY(12px);transition:opacity .6s ease, transform .6s ease}
+.reveal-visible{opacity:1;transform:none}
+
+/* Footer */
+footer a{color:var(--color-primary)}
+
+/* Utilities */
+.text-gradient{
+	background:linear-gradient(90deg, var(--color-primary), #00b4d8);
+	-webkit-background-clip:text;background-clip:text;color:transparent
+}
+
+/* Contact form */
+.form-control:focus{box-shadow:0 0 0 .2rem rgba(18,115,222,.15);border-color:var(--color-primary)}
+

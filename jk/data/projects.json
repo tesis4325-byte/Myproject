@@ -1,0 +1,25 @@
+[
+	{
+		"slug": "project1",
+		"title": "Library Management System",
+		"summary": "A modern, responsive Library Management System built with PHP, HTML, CSS, Bootstrap 5, and JavaScript. It manages books, users, and borrowing/returning processes with a smooth, component-driven interface, mobile-friendly design, and optimized performance.",
+		"description": "The Library Management System is a modern, responsive web application built with PHP, HTML, CSS, Bootstrap 5, and JavaScript. It allows administrators and users to efficiently manage books, catalog entries, and borrowing/returning processes. The system features a component-driven design, smooth checkout workflow, interactive UI elements, and is fully mobile-friendly. Optimized for performance and usability, it delivers a professional experience similar to modern platforms while ensuring maintainable and modular code.",
+		"image": "assets/images/Screenshot%20(58).png",
+		"tags": ["Bootstrap 5", "PHP", "Performance", "MySQL", "HTML", "CSS", "Tailwind CSS", "GitHub", "jQuery"],
+		"url": "#",
+		"repo": "#",
+		"screenshots": ["assets/images/Screenshot%20(59).png"]
+	},
+	{
+		"slug": "project2",
+		"title": "POS System",
+		"summary": "A fast and simple POS system with CRUD product management, image uploads, category filters, and markdown support, built using PHP, HTML, CSS, and JS.",
+		"description": "The POS (Point of Sale) System is a fast and efficient web application built with PHP, HTML, CSS, Bootstrap 5, and JavaScript. It features a CRUD interface for managing products, including image uploads, category filters, and markdown-enabled content. Designed for simplicity and speed, it provides a clean, user-friendly experience while maintaining modular and maintainable code.",
+		"image": "assets/images/1.png",
+		"tags": ["PHP", "MySQL", "HTML", "CSS", "Tailwind CSS", "GitHub", "React.js", "jQuery", "REST APIs"],
+		"url": "#",
+		"repo": "#",
+		"screenshots": ["assets/images/2.png"]
+	}
+]
+
